@@ -1,0 +1,173 @@
+@media only screen and (max-width:1000px){
+    nav{
+        flex-direction: column;
+        position: fixed;
+        height:40px;
+        left:10px;
+        right:10;
+        top:0;
+    }
+    .services{
+
+    }
+}
+
+body{
+    margin-top: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    background-color:rgba(0,0,0,0.6);
+  
+}
+
+.profile-pic{
+    width: 30px;
+    padding-left: 10px;
+    }
+
+    nav a:hover{
+        color: grey;
+    }
+
+
+nav a{
+    vertical-align: top;
+    padding-left: 20px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    top: 500spx;
+  
+}
+/* header{
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+} */
+
+
+.section-1{
+    top:0;
+    background-image: url(resources/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 3%;
+
+
+}
+.home-page{
+    color: white;
+    padding-top: 5%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home-page p{
+    padding-left: 15%;
+    padding-right: 15%; 
+    text-align: center;
+}
+.home-page button{
+    background-color: rgb(162, 47, 47, 0.9);
+    border: none;
+    border-radius: 10px;
+    
+}
+h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.services{
+    background-color: rgb(193, 193, 183);
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding: 2%;
+    border-radius: 20px;
+    border-color: purple;
+    margin: 1.5%;
+    
+}
+.services p{
+    font-size: 10px;
+}
+.services h3{
+    padding: 0;
+    margin-bottom: 0;
+}
+.services img{
+    width: 60px;
+}
+.clients{
+    background-image: url(resources/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.clients img{
+    width: 90px;
+}
+.client-images{
+    width: 60%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+}
+.contact-us {
+    background-image: url(resources/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.contact-us h1{
+    font-weight: 900;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.contact-us button{
+    text-align: center;
+    background-color: rgb(180, 102, 102);
+    color: black;
+    font-weight: bold;
+    border-color: rgb(180, 102, 102);
+   
+    align-content: center;
+    position: relative;
+    width: 26%;
+    
+    
+}
+
+/* .contact-us div{
+    margin-left: 30%;
+} */
+.contact-us p{
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.contact-us input{
+    width: 100%;
+    border-radius: 5px;
+}
+.message{
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
